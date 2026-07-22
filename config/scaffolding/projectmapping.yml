@@ -1,7 +1,7 @@
 version: "1.0"
 projectName: SIQA_RIBA_GIT_2207Project
 runtimes:
-- runtimeAlias: Cloud Designtime
+- runtimeAlias: SIQA_ERT_2207
   assets:
   - name: Call_deepclonetest
     type: workflow
