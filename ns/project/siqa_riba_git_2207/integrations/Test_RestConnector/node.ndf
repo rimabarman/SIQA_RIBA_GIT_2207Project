@@ -45,15 +45,68 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">rima.barman@ibm.com</value>
-    <value name="createdDate">1784719894796</value>
-    <value name="lastModifiedDate">1784719894796</value>
+    <value name="lastModifiedBy">rima.barman@ibm.com</value>
+    <value name="lastModifiedDate">1784721896012</value>
     <value name="displayName">Test_RestConnector</value>
     <value name="description"></value>
+    <array name="appList" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="providerName">WmSalesforceRESTProvider</value>
+        <value name="id">com.softwareag.cloudstreams.salesforce.rest_v60</value>
+      </record>
+    </array>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <value name="itemType">APPS</value>
+        <value name="id">com.softwareag.cloudstreams.salesforce.rest_v60</value>
+        <value name="name">Salesforce® CRM REST</value>
+        <value name="providerName">WmSalesforceRESTProvider</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="operationName">TestRest</value>
+          <value name="isCustom">true</value>
+          <value name="operationType">actions</value>
+          <value name="connectionType">sagcloud</value>
+          <value name="projectName">project.siqa_riba_git_2207</value>
+        </record>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <value name="packageName">WmSalesforceRESTProvider</value>
+        <value name="description">Salesforce CRM is a leading CRM platform that allows you to create and manage your customer records</value>
+        <value name="version">60</value>
+        <value name="allowCustomOperations">true</value>
+        <value name="extensionName">WmSalesforceRESTProviderExt</value>
+        <value name="certified">true</value>
+        <value name="type">REST</value>
+        <value name="registry">supported</value>
+        <value name="category">connector</value>
+        <value name="registeredDate">21/10/2025</value>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">true</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">RestConnAlias</value>
+          <value name="connectionType">sagcloud</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.siqa_riba_git_2207.WmSalesforceRESTProvider.com_softwareag_cloudstreams_salesforce_rest_v60.connections:RestConnAlias</value>
+        <value name="connectionType">sagcloud</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
       </record>
     </record>
   </record>
